@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:background="@drawable/dafade"
+        android:padding="10dp"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+        <FrameLayout
+            android:id="@+id/fldcMultBar"
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ProgressBar
+                android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+                android:id="@+id/pbdcMultBar"
+                android:layout_width="match_parent"
+                android:max="1000"
+                android:progress="1000"
+                android:progressDrawable="@drawable/damultiplier"
+                />
+            <View
+                android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+                android:id="@+id/pbdcApplierBack"
+                android:background="@drawable/applier_flash"
+                />
+            <ProgressBar
+                android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+                android:id="@+id/pbdcApplier"
+                android:max="180"
+                android:progress="130"
+                android:progressDrawable="@drawable/daapplier"
+                android:rotation="270.0"
+                />
+            <TextView
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/foreground"
+                android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+                android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+                android:id="@+id/tvMultiplier"
+                android:padding="13dp"
+                android:text="x1.5" />
+        </FrameLayout>
+        <ImageButton
+            android:id="@+id/bReset"
+            android:background="@drawable/dapanel"
+            android:layout_margin="2dp"
+            android:src="@drawable/redo"
+            android:scaleType="fitCenter"
+            android:tint="@color/foreground"
+            android:layout_below="@+id/fldcMultBar"
+            android:layout_alignParentLeft="true" />
+        <ImageButton
+            android:id="@+id/bPause"
+            android:background="@drawable/dapanel"
+            android:layout_margin="2dp"
+            android:src="@drawable/pause"
+            android:scaleType="fitCenter"
+            android:tint="@color/foreground"
+            android:layout_below="@+id/fldcMultBar"
+            android:layout_alignParentRight="true" />
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/foreground"
+            android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+            android:id="@+id/tvScoreBar"
+            android:background="@drawable/scorebar_transition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="SCORE"
+            android:layout_toLeftOf="@+id/bPause"
+            android:layout_toRightOf="@+id/bReset"
+            android:layout_below="@+id/fldcMultBar" />
+    </RelativeLayout>
+</RelativeLayout>

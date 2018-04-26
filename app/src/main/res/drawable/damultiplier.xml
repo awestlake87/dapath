@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/background" />
+            <stroke android:width="5dp" android:color="@color/foreground" />
+        </shape>
+    </item>
+    <item>
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end">
+            <shape>
+                <solid android:color="@color/foreground" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

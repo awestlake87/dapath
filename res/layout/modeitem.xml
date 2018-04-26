@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/dabutton" android:padding="10dp" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content"
-    &quot;>
-    <Button android:id="@+id/mibStats" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Stats" android:layout_alignParentRight="true" style="@style/dabutton" />
-    &quot;
-    <TextView android:textSize="25sp" android:textStyle="bold" android:textColor="@color/foreground" android:id="@+id/mitvItemName" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Game Mode Item" android:layout_toLeftOf="@+id/mibStats" android:layout_alignParentLeft="true" />
-    <TextView android:textSize="12sp" android:textColor="@color/foreground" android:id="@+id/mitvItemShortDesc" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Short Description of Game Mode" android:layout_toLeftOf="@+id/mibStats" android:layout_below="@+id/mitvItemName" android:layout_alignParentLeft="true" />
-</RelativeLayout>

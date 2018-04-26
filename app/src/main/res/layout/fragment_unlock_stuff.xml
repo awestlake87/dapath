@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="5dp" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="2.0">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+        <Button android:id="@+id/usbPurchase" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="Get Moar Credits!" android:layout_alignParentTop="true" style="@style/dabutton" />
+        <TextView android:id="@+id/tvCredits" android:background="@drawable/scorebar_transition" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="CREDITS" android:layout_toRightOf="@+id/usbPurchase" android:layout_alignParentTop="true" style="@style/datextview" />
+        <TextView android:textSize="40sp" android:textStyle="bold" android:textColor="@color/background" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/ustvUnlockStuff" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="Unlock Stuff" android:layout_alignParentBottom="true" />
+        <ListView android:id="@+id/uslvGameModes" android:background="@drawable/scorebar_transition" android:padding="15dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="5dp" android:divider="#00000000" android:dividerHeight="10dp" android:layout_above="@+id/ustvUnlockStuff" android:layout_below="@+id/usbPurchase" android:overScrollMode="never" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+        <Button android:id="@+id/usbReturn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="Return to Menu" android:layout_alignParentBottom="true" style="@style/dabutton" />
+        <TextView android:id="@+id/tvModeLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="Game Mode Unlockables" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/datextview" />
+        <ListView android:id="@+id/uslvUnlockables" android:background="@drawable/scorebar_transition" android:padding="15dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="5dp" android:divider="#00000000" android:dividerHeight="10dp" android:layout_above="@+id/usbReturn" android:layout_below="@+id/tvModeLabel" android:overScrollMode="never" />
+    </RelativeLayout>
+</LinearLayout>

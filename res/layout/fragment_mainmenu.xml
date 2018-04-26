@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="50dp" android:textStyle="bold" android:textColor="@color/background" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/tvTitleBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DA PATH!" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:id="@+id/bDaClassic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="Play Da Classic" style="@style/damenubutton" />
+        <Button android:id="@+id/bGameModes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="Game Modes" style="@style/damenubutton" />
+        <Button android:id="@+id/bFeedback" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="Send Feedback" style="@style/damenubutton" />
+        <Button android:id="@+id/bUnlockStuff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="Unlock Stuff" style="@style/damenubutton" />
+        <Button android:id="@+id/bDaQuit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="Da Quit" style="@style/damenubutton" />
+    </LinearLayout>
+</LinearLayout>

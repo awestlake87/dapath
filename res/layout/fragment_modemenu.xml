@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:id="@+id/bReturn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="Return to Menu" android:layout_alignParentBottom="true" style="@style/damenubutton" />
+    <TextView android:textSize="40sp" android:textStyle="bold" android:textColor="@color/background" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/tvGameModes" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="Game Modes" android:layout_above="@+id/bReturn" />
+    <ListView android:id="@+id/lvGameModes" android:background="@drawable/dapanel" android:padding="15dp" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="5dp" android:divider="#00000000" android:dividerHeight="10dp" android:layout_above="@+id/tvGameModes" android:layout_alignParentTop="true" android:overScrollMode="never" />
+</RelativeLayout>

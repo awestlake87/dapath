@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/dapanel" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="25sp" android:textStyle="bold" android:textColor="@color/foreground" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/udtvItemName" android:background="@drawable/dapanel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="ITEM NAME" android:layout_alignParentTop="true" />
+    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/foreground" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/udtvUnlock" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="Unlock for XXXXXcr?" android:layout_below="@+id/udtvItemName" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2.0" android:layout_below="@+id/udtvUnlock">
+        <Button android:id="@+id/udbYes" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="YUS!" android:layout_weight="1.0" style="@style/dabutton" />
+        <Button android:id="@+id/udbNo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="Naw" android:layout_weight="1.0" style="@style/dabutton" />
+    </LinearLayout>
+</RelativeLayout>

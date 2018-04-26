@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/dapanel" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="25sp" android:textStyle="bold" android:textColor="@color/foreground" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/nctvAlert" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="Not Enough Credits!" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2.0" android:layout_below="@+id/nctvAlert">
+        <Button android:id="@+id/ncbPurchase" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="Get Moar" android:layout_weight="1.0" style="@style/dabutton" />
+        <Button android:id="@+id/ncbReturn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="Go Back" android:layout_weight="1.0" style="@style/dabutton" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" ads:layout_width="match_parent" ads:layout_height="match_parent">
+    <com.google.android.gms.ads.AdView ads:id="@+id/adView" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:layout_alignParentBottom="true" ads:adSize="BANNER" ads:adUnitId="@string/banner_ad_unit_id" />
+</RelativeLayout>

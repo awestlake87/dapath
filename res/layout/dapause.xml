@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/dapanel" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="50dp" android:textStyle="bold" android:textColor="@color/foreground" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="DA PAUSE!" />
+    <Button android:id="@+id/dpbMenu" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="Back to Menu" style="@style/dabutton" />
+    <Button android:id="@+id/dpbReset" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="Reset" style="@style/dabutton" />
+    <Button android:id="@+id/dpbResume" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="Resume" style="@style/dabutton" />
+</LinearLayout>

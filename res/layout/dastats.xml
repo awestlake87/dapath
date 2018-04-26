@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/dapanel" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="50dp" android:textStyle="bold" android:textColor="@color/foreground" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="DA STATS!" />
+    <ListView android:id="@+id/lvStats" android:background="@drawable/dapanel" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xc801" android:layout_margin="5dp" android:divider="@color/foreground" android:dividerHeight="5dp" android:overScrollMode="never" />
+    &quot;
+    <Button android:id="@+id/dsbLeaderboard" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="Leaderboard" style="@style/dabutton" />
+    <Button android:id="@+id/bGoBack" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="Go Back" style="@style/dabutton" />
+</LinearLayout>
